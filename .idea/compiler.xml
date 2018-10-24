@@ -9,8 +9,5 @@
         <module name="SpringCoreStart" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="SpringCoreStart" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
