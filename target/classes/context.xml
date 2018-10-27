@@ -8,12 +8,16 @@
         <constructor-arg ref="sonyHead"/>
         <constructor-arg ref="sonyHand"/>
         <constructor-arg ref="sonyLeg"/>
+
+        <property name="head" ref="toshibaHead"/>
+        <property name="hand" ref="toshibaHand"/>
+        <property name="leg" ref="toshibaLeg"/>
     </bean>
 
     <bean id="t2000" class="com.springcorestart.Impls.Robot.ModelT1000">
-        <constructor-arg ref="toshibaHead"/>
-        <constructor-arg ref="toshibaHand"/>
-        <constructor-arg ref="toshibaLeg"/>
+        <property name="head" ref="toshibaHead"/>
+        <property name="hand" ref="toshibaHand"/>
+        <property name="leg" ref="toshibaLeg"/>
     </bean>
 
     <bean id="sonyHead" class="com.springcorestart.Impls.Sony.SonyHead"/>

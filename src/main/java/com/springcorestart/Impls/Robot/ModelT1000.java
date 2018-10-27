@@ -4,7 +4,11 @@ import com.springcorestart.Interfaces.Hand;
 import com.springcorestart.Interfaces.Head;
 import com.springcorestart.Interfaces.Leg;
 import com.springcorestart.Interfaces.Robot;
+import lombok.Getter;
+import lombok.Setter;
 
+@Getter
+@Setter
 public class ModelT1000 implements Robot {
 
     private Head head;

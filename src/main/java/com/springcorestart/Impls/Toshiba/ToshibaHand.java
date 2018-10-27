@@ -5,6 +5,6 @@ import com.springcorestart.Interfaces.Hand;
 public class ToshibaHand implements Hand {
 
     public void catchSomething() {
-        System.out.println("Catched from Toshiba!!");
+        System.out.println("Catched from Toshiba!");
     }
 }
