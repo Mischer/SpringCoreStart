@@ -2,20 +2,23 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:p="http://www.springframework.org/schema/p"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd"
+
+       default-lazy-init="true"
+       default-init-method="initObject"
+       default-destroy-method="destroyObject">
 
 
-    <bean id="t1000"
-          class="com.springcorestart.Impls.Robot.ModelT1000"
+    <bean id="t1000" class="com.springcorestart.Impls.Robot.ModelT1000"
           p:head-ref="sonyHead"
           p:hand-ref="sonyHand"
-          p:leg-ref="sonyLeg">
+          p:leg-ref="sonyLeg"
+          scope="prototype">
 
         <!--The best is write index and type-->
         <constructor-arg value="green" index="0" type="java.lang.String"/>
         <constructor-arg value="2018" index="1" type="int"/>
         <constructor-arg value="true" index="2" type="boolean"/>
-
     </bean>
 
     <bean id="t2000" class="com.springcorestart.Impls.Robot.ModelT1000">
@@ -24,7 +27,7 @@
         <property name="leg" ref="toshibaLeg"/>
     </bean>
 
-    <bean id="sonyHead" class="com.springcorestart.Impls.Sony.SonyHead"/>
+    <bean id="sonyHead" class="com.springcorestart.Impls.Sony.SonyHead" scope="prototype"/>
     <bean id="sonyHand" class="com.springcorestart.Impls.Sony.SonyHand"/>
     <bean id="sonyLeg" class="com.springcorestart.Impls.Sony.SonyLeg"/>
 
