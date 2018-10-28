@@ -1,6 +1,6 @@
-package com.springcorestart.Impls.Sony;
+package com.springcorestart.impls.sony;
 
-import com.springcorestart.Interfaces.Body;
+import com.springcorestart.interfaces.Body;
 
 public class SonyBody implements Body {
     public void connect() {

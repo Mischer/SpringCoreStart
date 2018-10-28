@@ -1,6 +1,6 @@
-package com.springcorestart.Impls.Toshiba;
+package com.springcorestart.impls.toshiba;
 
-import com.springcorestart.Interfaces.Body;
+import com.springcorestart.interfaces.Body;
 
 public class ToshibaBody implements Body {
 

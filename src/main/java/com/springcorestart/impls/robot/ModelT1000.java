@@ -1,9 +1,9 @@
-package com.springcorestart.Impls.Robot;
+package com.springcorestart.impls.robot;
 
-import com.springcorestart.Interfaces.Body;
-import com.springcorestart.Interfaces.Hand;
-import com.springcorestart.Interfaces.Head;
-import com.springcorestart.Interfaces.Leg;
+import com.springcorestart.interfaces.Body;
+import com.springcorestart.interfaces.Hand;
+import com.springcorestart.interfaces.Head;
+import com.springcorestart.interfaces.Leg;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -57,4 +57,5 @@ public class ModelT1000 extends BaseModel {
     public void destroyObject() {
         System.out.println("Destroy");
     }
+
 }

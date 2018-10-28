@@ -1,6 +1,6 @@
-package com.springcorestart.Impls.Toshiba;
+package com.springcorestart.impls.toshiba;
 
-import com.springcorestart.Interfaces.Leg;
+import com.springcorestart.interfaces.Leg;
 
 public class ToshibaLeg implements Leg {
 

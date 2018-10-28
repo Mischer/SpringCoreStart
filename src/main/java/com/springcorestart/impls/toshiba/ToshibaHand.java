@@ -1,6 +1,6 @@
-package com.springcorestart.Impls.Toshiba;
+package com.springcorestart.impls.toshiba;
 
-import com.springcorestart.Interfaces.Hand;
+import com.springcorestart.interfaces.Hand;
 
 public class ToshibaHand implements Hand {
 

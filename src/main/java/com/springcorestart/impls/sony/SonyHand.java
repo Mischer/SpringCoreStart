@@ -1,6 +1,6 @@
-package com.springcorestart.Impls.Sony;
+package com.springcorestart.impls.sony;
 
-import com.springcorestart.Interfaces.Hand;
+import com.springcorestart.interfaces.Hand;
 
 public class SonyHand implements Hand {
 

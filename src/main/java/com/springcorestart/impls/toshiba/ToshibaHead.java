@@ -1,6 +1,6 @@
-package com.springcorestart.Impls.Toshiba;
+package com.springcorestart.impls.toshiba;
 
-import com.springcorestart.Interfaces.Head;
+import com.springcorestart.interfaces.Head;
 
 public class ToshibaHead implements Head {
 

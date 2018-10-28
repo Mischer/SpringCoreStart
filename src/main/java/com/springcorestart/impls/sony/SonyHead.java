@@ -1,6 +1,6 @@
-package com.springcorestart.Impls.Sony;
+package com.springcorestart.impls.sony;
 
-import com.springcorestart.Interfaces.Head;
+import com.springcorestart.interfaces.Head;
 
 public class SonyHead implements Head {
 

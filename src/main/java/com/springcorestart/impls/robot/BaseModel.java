@@ -1,6 +1,6 @@
-package com.springcorestart.Impls.Robot;
+package com.springcorestart.impls.robot;
 
-import com.springcorestart.Interfaces.*;
+import com.springcorestart.interfaces.*;
 import lombok.Getter;
 import lombok.Setter;
 

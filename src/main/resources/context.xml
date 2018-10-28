@@ -14,7 +14,11 @@
         <constructor-arg ref="sonyLeg"/>
     </bean>
 
-    <bean id="t1000" class="com.springcorestart.Impls.Robot.ModelT1000"
+    <bean id="t1000Conveyor" class="com.springcorestart.impls.conveyor.T1000Conveyor">
+        <lookup-method name="createRobot" bean="t1000"/>
+    </bean>
+
+    <bean id="t1000" class="com.springcorestart.impls.robot.ModelT1000"
           parent="baseModel" scope="prototype">
 
         <!--The best is write index and type-->
@@ -23,15 +27,16 @@
         <constructor-arg value="true" index="6" type="boolean"/>
     </bean>
 
-    <bean id="t2000" class="com.springcorestart.Impls.Robot.ModelT1000"
+    <bean id="t2000" class="com.springcorestart.impls.robot.ModelT1000"
           depends-on="t1000" parent="baseModel" scope="prototype">
 
+        <!--The best is write index and type-->
         <constructor-arg value="yellow" index="4" type="java.lang.String"/>
         <constructor-arg value="2017" index="5" type="int"/>
         <constructor-arg value="false" index="6" type="boolean"/>
     </bean>
 
-    <bean id="t3000" class="com.springcorestart.Impls.Robot.ModelT1000"
+    <bean id="t3000" class="com.springcorestart.impls.robot.ModelT1000"
           parent="baseModel" scope="prototype">
 
         <property name="body" ref="toshibaBody"/>
@@ -43,13 +48,13 @@
         <constructor-arg value="true" index="6" type="boolean"/>
     </bean>
 
-    <bean id="sonyBody" class="com.springcorestart.Impls.Sony.SonyBody"/>
-    <bean id="sonyHead" class="com.springcorestart.Impls.Sony.SonyHead"/>
-    <bean id="sonyHand" class="com.springcorestart.Impls.Sony.SonyHand"/>
-    <bean id="sonyLeg" class="com.springcorestart.Impls.Sony.SonyLeg"/>
+    <bean id="sonyBody" class="com.springcorestart.impls.sony.SonyBody"/>
+    <bean id="sonyHead" class="com.springcorestart.impls.sony.SonyHead"/>
+    <bean id="sonyHand" class="com.springcorestart.impls.sony.SonyHand"/>
+    <bean id="sonyLeg" class="com.springcorestart.impls.sony.SonyLeg"/>
 
-    <bean id="toshibaBody" class="com.springcorestart.Impls.Toshiba.ToshibaBody"/>
-    <bean id="toshibaHead" class="com.springcorestart.Impls.Toshiba.ToshibaHead"/>
-    <bean id="toshibaHand" class="com.springcorestart.Impls.Toshiba.ToshibaHand"/>
-    <bean id="toshibaLeg" class="com.springcorestart.Impls.Toshiba.ToshibaLeg"/>
+    <bean id="toshibaBody" class="com.springcorestart.impls.toshiba.ToshibaBody"/>
+    <bean id="toshibaHead" class="com.springcorestart.impls.toshiba.ToshibaHead"/>
+    <bean id="toshibaHand" class="com.springcorestart.impls.toshiba.ToshibaHand"/>
+    <bean id="toshibaLeg" class="com.springcorestart.impls.toshiba.ToshibaLeg"/>
 </beans>

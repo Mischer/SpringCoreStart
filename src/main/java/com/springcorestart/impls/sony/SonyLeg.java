@@ -1,6 +1,6 @@
-package com.springcorestart.Impls.Sony;
+package com.springcorestart.impls.sony;
 
-import com.springcorestart.Interfaces.Leg;
+import com.springcorestart.interfaces.Leg;
 
 public class SonyLeg implements Leg {
 
