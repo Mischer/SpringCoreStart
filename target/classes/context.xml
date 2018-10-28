@@ -7,15 +7,15 @@
        default-init-method="initObject"
        default-destroy-method="destroyObject">
 
-    <bean id="baseModel">
-        <constructor-arg ref="sonyBody" index="0"/>
-        <constructor-arg ref="sonyHead" index="1"/>
-        <constructor-arg ref="sonyHand" index="2"/>
-        <constructor-arg ref="sonyLeg" index="3"/>
+    <bean id="baseModel" abstract="true">
+        <constructor-arg ref="sonyBody"/>
+        <constructor-arg ref="sonyHead"/>
+        <constructor-arg ref="sonyHand"/>
+        <constructor-arg ref="sonyLeg"/>
     </bean>
 
     <bean id="t1000" class="com.springcorestart.Impls.Robot.ModelT1000"
-          parent="baseModel">
+          parent="baseModel" scope="prototype">
 
         <!--The best is write index and type-->
         <constructor-arg value="green" index="4" type="java.lang.String"/>
@@ -24,16 +24,23 @@
     </bean>
 
     <bean id="t2000" class="com.springcorestart.Impls.Robot.ModelT1000"
-          depends-on="t1000" parent="baseModel">
+          depends-on="t1000" parent="baseModel" scope="prototype">
+
+        <constructor-arg value="yellow" index="4" type="java.lang.String"/>
+        <constructor-arg value="2017" index="5" type="int"/>
+        <constructor-arg value="false" index="6" type="boolean"/>
+    </bean>
+
+    <bean id="t3000" class="com.springcorestart.Impls.Robot.ModelT1000"
+          parent="baseModel" scope="prototype">
 
         <property name="body" ref="toshibaBody"/>
         <property name="head" ref="toshibaHead"/>
         <property name="hand" ref="toshibaHand"/>
         <property name="leg" ref="toshibaLeg"/>
-        <constructor-arg value="yellow" index="4" type="java.lang.String"/>
-        <constructor-arg value="2017" index="5" type="int"/>
-        <constructor-arg value="false" index="6" type="boolean"/>
-
+        <constructor-arg value="red" index="4" type="java.lang.String"/>
+        <constructor-arg value="2019" index="5" type="int"/>
+        <constructor-arg value="true" index="6" type="boolean"/>
     </bean>
 
     <bean id="sonyBody" class="com.springcorestart.Impls.Sony.SonyBody"/>
@@ -45,5 +52,4 @@
     <bean id="toshibaHead" class="com.springcorestart.Impls.Toshiba.ToshibaHead"/>
     <bean id="toshibaHand" class="com.springcorestart.Impls.Toshiba.ToshibaHand"/>
     <bean id="toshibaLeg" class="com.springcorestart.Impls.Toshiba.ToshibaLeg"/>
-
 </beans>

@@ -3,11 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="d2ab9157-5fac-441e-8d96-be55f6d200a5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Start.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springcorestart/Impls/Robot/ModelT1000.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springcorestart/Impls/Robot/ModelT1000.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/context.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Start.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Start.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springcorestart/Impls/Robot/ModelT1000.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springcorestart/Impls/Robot/ModelT1000.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/context.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -53,31 +52,31 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="956" />
-          <entry key="xml" value="1101" />
+          <entry key="java" value="963" />
+          <entry key="xml" value="1126" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="956" />
-          <entry key="XML" value="1101" />
+          <entry key="JAVA" value="963" />
+          <entry key="XML" value="1126" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="SpringLocalModels/module=SpringCoreStart" value="2" />
           <entry key="class" value="1" />
-          <entry key="java" value="65" />
-          <entry key="xml" value="17" />
-          <entry key="xml;appContextName=context" value="13" />
+          <entry key="java" value="66" />
+          <entry key="xml" value="18" />
+          <entry key="xml;appContextName=context" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="65" />
-          <entry key="UML" value="15" />
-          <entry key="XML" value="17" />
+          <entry key="JAVA" value="66" />
+          <entry key="UML" value="16" />
+          <entry key="XML" value="18" />
         </counts>
       </usages-collector>
     </session>
@@ -87,8 +86,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Start.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="374">
+              <caret line="17" column="59" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,7 +98,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/springcorestart/Impls/Robot/ModelT1000.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
+            <state relative-caret-position="682">
               <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -113,8 +112,99 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/context.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="40" lean-forward="true" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+            <state relative-caret-position="748">
+              <caret line="34" column="47" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="526">
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://SPRING/appContextPath=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;appContextName=context">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>SPRING</ID>
+              <OriginalElement>appContextPath=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;appContextName=context</OriginalElement>
+              <nodes>
+                <node x="137.0" y="90.0">module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_name=baseModel</node>
+                <node x="305.0" y="0.0">module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Sony.SonyBody;bean_name=sonyBody</node>
+                <node x="304.5" y="60.0">module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Sony.SonyHead;bean_name=sonyHead</node>
+                <node x="304.0" y="120.0">module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Sony.SonyHand;bean_name=sonyHand</node>
+                <node x="309.0" y="180.0">module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Sony.SonyLeg;bean_name=sonyLeg</node>
+                <node x="152.0" y="30.0">module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Robot.ModelT1000;bean_name=t1000</node>
+                <node x="0.0" y="57.5">module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Robot.ModelT1000;bean_name=t2000</node>
+                <node x="0.0" y="210.0">module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Robot.ModelT1000;bean_name=t3000</node>
+                <node x="133.0" y="150.0">module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Toshiba.ToshibaBody;bean_name=toshibaBody</node>
+                <node x="132.5" y="210.0">module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Toshiba.ToshibaHead;bean_name=toshibaHead</node>
+                <node x="132.0" y="270.0">module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Toshiba.ToshibaHand;bean_name=toshibaHand</node>
+                <node x="137.0" y="330.0">module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Toshiba.ToshibaLeg;bean_name=toshibaLeg</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Robot.ModelT1000;bean_name=t2000" target="module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_name=baseModel">
+                  <point x="26.0" y="5.0" />
+                  <point x="-41.0" y="-5.0" />
+                </edge>
+                <edge source="module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Robot.ModelT1000;bean_name=t3000" target="module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Toshiba.ToshibaHead;bean_name=toshibaHead">
+                  <point x="26.0" y="-0.0" />
+                  <point x="-45.5" y="-0.0" />
+                </edge>
+                <edge source="module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_name=baseModel" target="module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Sony.SonyBody;bean_name=sonyBody">
+                  <point x="41.0" y="-7.5" />
+                  <point x="-38.0" y="-0.0" />
+                </edge>
+                <edge source="module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Robot.ModelT1000;bean_name=t3000" target="module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Toshiba.ToshibaBody;bean_name=toshibaBody">
+                  <point x="26.0" y="-4.0" />
+                  <point x="-45.0" y="-0.0" />
+                </edge>
+                <edge source="module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Robot.ModelT1000;bean_name=t3000" target="module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_name=baseModel">
+                  <point x="26.0" y="-8.0" />
+                  <point x="-41.0" y="5.0" />
+                </edge>
+                <edge source="module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Robot.ModelT1000;bean_name=t1000" target="module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_name=baseModel">
+                  <point x="0.0" y="10.0" />
+                  <point x="0.0" y="-10.0" />
+                </edge>
+                <edge source="module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_name=baseModel" target="module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Sony.SonyHead;bean_name=sonyHead">
+                  <point x="41.0" y="-2.5" />
+                  <point x="-38.5" y="-0.0" />
+                </edge>
+                <edge source="module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_name=baseModel" target="module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Sony.SonyHand;bean_name=sonyHand">
+                  <point x="41.0" y="2.5" />
+                  <point x="-39.0" y="-0.0" />
+                </edge>
+                <edge source="module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Robot.ModelT1000;bean_name=t2000" target="module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Robot.ModelT1000;bean_name=t1000">
+                  <point x="26.0" y="-5.0" />
+                  <point x="132.0" y="40.0" />
+                  <point x="-26.0" y="-0.0" />
+                </edge>
+                <edge source="module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Robot.ModelT1000;bean_name=t3000" target="module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Toshiba.ToshibaHand;bean_name=toshibaHand">
+                  <point x="26.0" y="4.0" />
+                  <point x="-46.0" y="-0.0" />
+                </edge>
+                <edge source="module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_name=baseModel" target="module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Sony.SonyLeg;bean_name=sonyLeg">
+                  <point x="41.0" y="7.5" />
+                  <point x="-34.0" y="-0.0" />
+                </edge>
+                <edge source="module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Robot.ModelT1000;bean_name=t3000" target="module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Toshiba.ToshibaLeg;bean_name=toshibaLeg">
+                  <point x="26.0" y="8.0" />
+                  <point x="-41.0" y="-0.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="-344.5" y="161.5" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Local context</Category>
+                <Category>Properties</Category>
+              </Categories>
             </state>
           </provider>
         </entry>
@@ -151,7 +241,6 @@
         <option value="$PROJECT_DIR$/src/main/java/Impls/Robot/Model_T1000.java" />
         <option value="$PROJECT_DIR$/src/main/java/Impls/Robot/ModelT1000.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springcorestart/Interfaces/Robot.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/springcorestart/Impls/Sony/SonyHand.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springcorestart/Impls/Toshiba/ToshibaHand.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springcorestart/Interfaces/Body.java" />
@@ -161,6 +250,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/springcorestart/Impls/Robot/ModelT1000.java" />
         <option value="$PROJECT_DIR$/src/main/java/Start.java" />
         <option value="$PROJECT_DIR$/src/main/resources/context.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -380,12 +470,12 @@
       <workItem from="1540662211076" duration="1095000" />
       <workItem from="1540728227422" duration="4108000" />
       <workItem from="1540735696909" duration="1518000" />
-      <workItem from="1540737260809" duration="406000" />
+      <workItem from="1540737260809" duration="2943000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25065000" />
+    <option name="totallyTimeSpent" value="27602000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -398,7 +488,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17324094" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -428,7 +517,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.1924307" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.1684435" />
+      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.1684435" />
       <window_info anchor="right" id="Database" order="6" weight="0.15031983" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -492,13 +581,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
         </state>
       </provider>
     </entry>
@@ -576,6 +658,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springcorestart/Impls/Robot/BaseModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springcorestart/Impls/Robot/ModelT1000.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#546#547#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="uml://SPRING/appContextPath=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;appContextName=context">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -587,109 +691,96 @@
             <node x="304.5" y="60.0">module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Sony.SonyHead;bean_name=sonyHead</node>
             <node x="304.0" y="120.0">module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Sony.SonyHand;bean_name=sonyHand</node>
             <node x="309.0" y="180.0">module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Sony.SonyLeg;bean_name=sonyLeg</node>
-            <node x="152.0" y="150.0">module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Robot.ModelT1000;bean_name=t1000</node>
-            <node x="0.0" y="240.0">module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Robot.ModelT1000;bean_name=t2000</node>
-            <node x="133.0" y="210.0">module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Toshiba.ToshibaBody;bean_name=toshibaBody</node>
-            <node x="132.5" y="270.0">module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Toshiba.ToshibaHead;bean_name=toshibaHead</node>
-            <node x="132.0" y="330.0">module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Toshiba.ToshibaHand;bean_name=toshibaHand</node>
-            <node x="137.0" y="390.0">module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Toshiba.ToshibaLeg;bean_name=toshibaLeg</node>
+            <node x="152.0" y="30.0">module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Robot.ModelT1000;bean_name=t1000</node>
+            <node x="0.0" y="57.5">module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Robot.ModelT1000;bean_name=t2000</node>
+            <node x="0.0" y="210.0">module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Robot.ModelT1000;bean_name=t3000</node>
+            <node x="133.0" y="150.0">module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Toshiba.ToshibaBody;bean_name=toshibaBody</node>
+            <node x="132.5" y="210.0">module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Toshiba.ToshibaHead;bean_name=toshibaHead</node>
+            <node x="132.0" y="270.0">module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Toshiba.ToshibaHand;bean_name=toshibaHand</node>
+            <node x="137.0" y="330.0">module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Toshiba.ToshibaLeg;bean_name=toshibaLeg</node>
           </nodes>
           <notes />
           <edges>
-            <edge source="module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Robot.ModelT1000;bean_name=t2000" target="module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Robot.ModelT1000;bean_name=t1000">
-              <point x="26.0" y="-5.0" />
-              <point x="132.0" y="160.0" />
-              <point x="-26.0" y="-0.0" />
-            </edge>
-            <edge source="module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_name=baseModel" target="module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Sony.SonyHand;bean_name=sonyHand">
-              <point x="41.0" y="2.5" />
-              <point x="-39.0" y="-0.0" />
-            </edge>
             <edge source="module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Robot.ModelT1000;bean_name=t2000" target="module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_name=baseModel">
-              <point x="26.0" y="-8.333333333333343" />
-              <point x="-41.0" y="-0.0" />
+              <point x="26.0" y="5.0" />
+              <point x="-41.0" y="-5.0" />
+            </edge>
+            <edge source="module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Robot.ModelT1000;bean_name=t3000" target="module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Toshiba.ToshibaHead;bean_name=toshibaHead">
+              <point x="26.0" y="-0.0" />
+              <point x="-45.5" y="-0.0" />
             </edge>
             <edge source="module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_name=baseModel" target="module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Sony.SonyBody;bean_name=sonyBody">
               <point x="41.0" y="-7.5" />
               <point x="-38.0" y="-0.0" />
             </edge>
-            <edge source="module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Robot.ModelT1000;bean_name=t2000" target="module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Toshiba.ToshibaBody;bean_name=toshibaBody">
-              <point x="26.0" y="-1.6666666666666572" />
+            <edge source="module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Robot.ModelT1000;bean_name=t3000" target="module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Toshiba.ToshibaBody;bean_name=toshibaBody">
+              <point x="26.0" y="-4.0" />
               <point x="-45.0" y="-0.0" />
             </edge>
-            <edge source="module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_name=baseModel" target="module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Sony.SonyLeg;bean_name=sonyLeg">
-              <point x="41.0" y="7.5" />
-              <point x="-34.0" y="-0.0" />
-            </edge>
-            <edge source="module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Robot.ModelT1000;bean_name=t2000" target="module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Toshiba.ToshibaHead;bean_name=toshibaHead">
-              <point x="26.0" y="1.6666666666666572" />
-              <point x="-45.5" y="-0.0" />
-            </edge>
-            <edge source="module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Robot.ModelT1000;bean_name=t2000" target="module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Toshiba.ToshibaHand;bean_name=toshibaHand">
-              <point x="26.0" y="5.0" />
-              <point x="-46.0" y="-0.0" />
-            </edge>
-            <edge source="module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Robot.ModelT1000;bean_name=t2000" target="module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Toshiba.ToshibaLeg;bean_name=toshibaLeg">
-              <point x="26.0" y="8.333333333333343" />
-              <point x="-41.0" y="-0.0" />
+            <edge source="module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Robot.ModelT1000;bean_name=t3000" target="module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_name=baseModel">
+              <point x="26.0" y="-8.0" />
+              <point x="-41.0" y="5.0" />
             </edge>
             <edge source="module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Robot.ModelT1000;bean_name=t1000" target="module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_name=baseModel">
-              <point x="0.0" y="-10.0" />
               <point x="0.0" y="10.0" />
+              <point x="0.0" y="-10.0" />
             </edge>
             <edge source="module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_name=baseModel" target="module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Sony.SonyHead;bean_name=sonyHead">
               <point x="41.0" y="-2.5" />
               <point x="-38.5" y="-0.0" />
             </edge>
+            <edge source="module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_name=baseModel" target="module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Sony.SonyHand;bean_name=sonyHand">
+              <point x="41.0" y="2.5" />
+              <point x="-39.0" y="-0.0" />
+            </edge>
+            <edge source="module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Robot.ModelT1000;bean_name=t2000" target="module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Robot.ModelT1000;bean_name=t1000">
+              <point x="26.0" y="-5.0" />
+              <point x="132.0" y="40.0" />
+              <point x="-26.0" y="-0.0" />
+            </edge>
+            <edge source="module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Robot.ModelT1000;bean_name=t3000" target="module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Toshiba.ToshibaHand;bean_name=toshibaHand">
+              <point x="26.0" y="4.0" />
+              <point x="-46.0" y="-0.0" />
+            </edge>
+            <edge source="module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_name=baseModel" target="module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Sony.SonyLeg;bean_name=sonyLeg">
+              <point x="41.0" y="7.5" />
+              <point x="-34.0" y="-0.0" />
+            </edge>
+            <edge source="module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Robot.ModelT1000;bean_name=t3000" target="module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Toshiba.ToshibaLeg;bean_name=toshibaLeg">
+              <point x="26.0" y="8.0" />
+              <point x="-41.0" y="-0.0" />
+            </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-346.0" y="162.0" />
-          <SelectedNodes>
-            <node>module=SpringCoreStart;context=F:/Java/My Study Project/SpringCoreStart/src/main/resources/context.xml;bean_class=com.springcorestart.Impls.Toshiba.ToshibaLeg;bean_name=toshibaLeg</node>
-          </SelectedNodes>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-344.5" y="161.5" />
+          <SelectedNodes />
           <Categories>
             <Category>Local context</Category>
             <Category>Properties</Category>
           </Categories>
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springcorestart/Impls/Robot/BaseModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Start.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="374">
+          <caret line="17" column="59" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springcorestart/Impls/Robot/ModelT1000.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-            <element signature="e#546#547#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="526">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/context.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="40" lean-forward="true" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+        <state relative-caret-position="748">
+          <caret line="34" column="47" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
         </state>
       </provider>
     </entry>
