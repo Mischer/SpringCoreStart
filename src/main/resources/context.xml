@@ -13,7 +13,8 @@
           p:head-ref="sonyHead"
           p:hand-ref="sonyHand"
           p:leg-ref="sonyLeg"
-          scope="prototype">
+          scope="prototype"
+          depends-on="t2000">
 
         <!--The best is write index and type-->
         <constructor-arg value="green" index="0" type="java.lang.String"/>
