@@ -1,39 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xmlns:p="http://www.springframework.org/schema/p"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd"
 
        default-lazy-init="true"
        default-init-method="initObject"
        default-destroy-method="destroyObject">
 
-
-    <bean id="t1000" class="com.springcorestart.Impls.Robot.ModelT1000"
-          p:head-ref="sonyHead"
-          p:hand-ref="sonyHand"
-          p:leg-ref="sonyLeg"
-          scope="prototype"
-          depends-on="t2000">
-
-        <!--The best is write index and type-->
-        <constructor-arg value="green" index="0" type="java.lang.String"/>
-        <constructor-arg value="2018" index="1" type="int"/>
-        <constructor-arg value="true" index="2" type="boolean"/>
+    <bean id="baseModel" abstract="true">
+        <constructor-arg ref="sonyBody"/>
+        <constructor-arg ref="sonyHead"/>
+        <constructor-arg ref="sonyHand"/>
+        <constructor-arg ref="sonyLeg"/>
     </bean>
 
-    <bean id="t2000" class="com.springcorestart.Impls.Robot.ModelT1000">
+    <bean id="t1000" class="com.springcorestart.Impls.Robot.ModelT1000"
+          parent="baseModel">
+
+        <!--The best is write index and type-->
+        <constructor-arg value="green" index="4" type="java.lang.String"/>
+        <constructor-arg value="2018" index="5" type="int"/>
+        <constructor-arg value="true" index="6" type="boolean"/>
+    </bean>
+
+    <bean id="t2000" class="com.springcorestart.Impls.Robot.ModelT1000"
+          depends-on="t1000" parent="baseModel">
+
+        <property name="body" ref="toshibaBody"/>
         <property name="head" ref="toshibaHead"/>
         <property name="hand" ref="toshibaHand"/>
         <property name="leg" ref="toshibaLeg"/>
+        <constructor-arg value="yellow" index="4" type="java.lang.String"/>
+        <constructor-arg value="2017" index="5" type="int"/>
+        <constructor-arg value="false" index="6" type="boolean"/>
     </bean>
 
-    <bean id="sonyHead" class="com.springcorestart.Impls.Sony.SonyHead" scope="prototype"/>
+    <bean id="sonyBody" class="com.springcorestart.Impls.Sony.SonyBody"/>
+    <bean id="sonyHead" class="com.springcorestart.Impls.Sony.SonyHead"/>
     <bean id="sonyHand" class="com.springcorestart.Impls.Sony.SonyHand"/>
     <bean id="sonyLeg" class="com.springcorestart.Impls.Sony.SonyLeg"/>
 
+    <bean id="toshibaBody" class="com.springcorestart.Impls.Toshiba.ToshibaBody"/>
     <bean id="toshibaHead" class="com.springcorestart.Impls.Toshiba.ToshibaHead"/>
     <bean id="toshibaHand" class="com.springcorestart.Impls.Toshiba.ToshibaHand"/>
     <bean id="toshibaLeg" class="com.springcorestart.Impls.Toshiba.ToshibaLeg"/>
-
 </beans>
